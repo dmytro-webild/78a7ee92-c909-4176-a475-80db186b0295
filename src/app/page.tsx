@@ -12,7 +12,7 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
-import { Award, BookOpen, FileText, LayoutDashboard, ShieldCheck, Users } from "lucide-react";
+import { Award, BookOpen, FileText, LayoutDashboard, ShieldCheck, Users, Github } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -39,7 +39,8 @@ export default function LandingPage() {
               { name: "Metrics", id: "metrics" },
               { name: "Testimonials", id: "testimonials" },
               { name: "FAQ", id: "faq" },
-              { name: "Contact", id: "contact" }
+              { name: "Contact", id: "contact" },
+              { name: "GitHub", id: "github" }
             ]}
             brandName="EduStream"
           />
@@ -58,7 +59,7 @@ export default function LandingPage() {
               { src: "http://img.b2bpic.net/free-photo/weather-effects-collage-concept_23-2150062191.jpg", alt: "Student" }
             ]}
             avatarText="Trusted by 5,000+ students"
-            buttons={[{ text: "Get Started", href: "#products" }, { text: "Learn More", href: "#about" }]}
+            buttons={[{ text: "Get Started", href: "#products" }, { text: "Learn More", href: "#about" }, { text: "View on GitHub", href: "https://github.com/" }]}
             marqueeItems={[{ type: "text", text: "React.js" }, { type: "text", text: "Node.js" }, { type: "text", text: "MongoDB" }, { type: "text", text: "Express" }, { type: "text", text: "Cloud Ready" }]}
           />
         </div>
@@ -157,7 +158,7 @@ export default function LandingPage() {
             useInvertedBackground={true}
             background={{ variant: "sparkles-gradient" }}
             text="Ready to launch your learning journey?"
-            buttons={[{ text: "Contact Support", href: "mailto:hello@edustream.com" }]}
+            buttons={[{ text: "Contact Support", href: "mailto:hello@edustream.com" }, { text: "Follow on GitHub", href: "https://github.com/" }]}
           />
         </div>
 
